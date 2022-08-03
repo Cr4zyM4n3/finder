@@ -113,7 +113,6 @@ value=f"**Name**: `{group_info['name']}`\n**MemberCount**: `{group_info['memberC
 dict(name="**Roles**", value=f"**Roles Count**: `{roles(group_info['id'])}`\n\n"),
          dict(name="**Clothing**", value=f"**Clothing Count**: `{clothingcount(group_info['id'])}`\n\n"), 
          dict(name="**Games**", value=f"**Game Count**: `{gamecount(group_info['id'])}`\n**Most Visited Game's Visits**: `{mostvisitegame(group_info['id'])}`\n\n"),
-         dict(name="**Description**", value=f"`{group_info['description']}`\n\n"),
          dict(name="**URL**", value=f"https://roblox.com/groups/{group_info['id']}")
         ],
              
